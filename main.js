@@ -1,9 +1,13 @@
 'use strict';
 
+function extractValue(str) {
+    return str.parseInt();
+}
 
+let x = alert('gimme money', '');
 
-
-
+let y = extractValue(x);
+alert('y');
 //////////////
 // input an obj. if it has any numeric values, double the value in the object
 // function multiplyNumeric(obj) {

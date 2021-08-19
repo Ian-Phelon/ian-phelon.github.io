@@ -1553,6 +1553,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     transition: all 0.3s ease-in-out;
 }
 
+
+
 .header-menu-toggle:hover, .header-menu-toggle:focus {
     color: #FFFFFF;
 }
@@ -1586,7 +1588,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
-
 .header-menu-toggle span::before {
     top: -9px;
 }
@@ -1660,7 +1661,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-nav li.current a {
     font-family: "montserrat-extrabold", sans-serif;
-    color: #af2b2b;
+    color: #d5a7fa;
 }
 
 
@@ -1775,7 +1776,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content h3 {
     font-family: "montserrat-bold", sans-serif;
     font-size: 1.8rem;
-    color: #862121;
+    color: #d5a7fa;
     text-transform: uppercase;
     letter-spacing: .5rem;
     position: relative;
@@ -1789,7 +1790,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     content: "";
     width: 60px;
     height: 2px;
-    background-color: #862121;
+    background-color: #d5a7fa;
     margin-top: -1.5px;
     position: absolute;
     left: 0;
@@ -1852,8 +1853,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::after {
-    border-bottom: 2px solid #922424;
-    border-right: 2px solid #922424;
+    border-bottom: 2px solid #d5a7fa;
+    border-right: 2px solid #d5a7fa;
     content: '';
     display: block;
     height: 8px;
@@ -1927,7 +1928,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #af2b2b;
+    color: #d5a7fa;
     right: 3.6rem;
     font-size: 1.3rem;
     opacity: 0;

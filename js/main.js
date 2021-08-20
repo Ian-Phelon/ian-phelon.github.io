@@ -345,7 +345,7 @@
             submitHandler: function(form) {
     
                 var sLoader = $('.submit-loader');
-    
+
                 $.ajax({
     
                     type: "POST",
@@ -376,7 +376,7 @@
                     error: function() {
     
                         sLoader.slideUp("slow"); 
-                        $('.message-warning').html("Something went wrong. Please try!mainjs again.");
+                        $('.message-warning').html("Something went wrong. Please try again.");
                         $('.message-warning').slideDown("slow");
     
                     }
@@ -385,6 +385,8 @@
             }
     
         });
+
+        
     };
 
 

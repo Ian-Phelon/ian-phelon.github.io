@@ -337,14 +337,17 @@
     /* Contact Form
      * ------------------------------------------------------ */
     var ssContactForm = function() {
-
         /* local validation */
 	    $('#contactForm').validate({
-        
+            
             /* submit via ajax */
             submitHandler: function(form) {
-    
+                
                 var sLoader = $('.submit-loader');
+               
+                for (let value of Object.values(form)) {
+                    console.log(`${value.toString()}`);
+                  }
 
                 $.ajax({
     

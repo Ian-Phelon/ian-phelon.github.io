@@ -1,10 +1,10 @@
 ﻿<?php
 
-// Replace this with your own email address
-$siteOwnersEmail = 'otterpocketsolutions@gmail.com';
 
 
 if($_POST) {
+    // Replace this with your own email address
+    $siteOwnersEmail = 'otterpocketsolutions@gmail.com';
 
     $name = trim(stripslashes($_POST['contactName']));
     $email = trim(stripslashes($_POST['contactEmail']));

@@ -830,8 +830,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus, 
 input[type="reset"].btn--primary:focus, 
 input[type="button"].btn--primary:focus {
-    background: #862121;
-    border-color: #862121;
+    background: #d5a7fa;
+    border-color: #d5a7fa;
 }
 
 
@@ -1276,7 +1276,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h3 {
     font-family: "montserrat-semibold", sans-serif;
     font-size: 2rem;
-    color: #862121;
+    color: #d5a7fa;
+    
     text-transform: uppercase;
     letter-spacing: .15rem;
     margin-top: 0;

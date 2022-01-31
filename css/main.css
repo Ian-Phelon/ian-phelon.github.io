@@ -733,21 +733,21 @@ label > input[type="checkbox"], label > input[type="radio"] {
 }
 
 :-moz-placeholder {
-    color: #6c6c6c;
+    color: #fff;
     /* Firefox 18- */
 }
 
 ::-moz-placeholder {
-    color: #6c6c6c;
+    color: #fff;
     /* Firefox 19+ */
 }
 
 :-ms-input-placeholder {
-    color: #6c6c6c;
+    color: #fff;
 }
 
 .placeholder {
-    color: #6c6c6c !important;
+    color: #fff !important;
 }
 
 
@@ -3048,7 +3048,7 @@ html.no-csstransitions .home-content__main {
     background-position: center, center;
     padding-top: 13.2rem;
     padding-bottom: 12rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.9);
     position: relative;
 }
 
@@ -3058,7 +3058,7 @@ html.no-csstransitions .home-content__main {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .75;
+    opacity: .55;
     background-color: #070606;
 }
 
